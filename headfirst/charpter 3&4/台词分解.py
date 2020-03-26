@@ -63,19 +63,19 @@
 
 #第六次代码，更加稳定的程序运行，利用了两个try来保护程序的运行，第一个反馈文件是否存在，第二个遇到冒号不存问题时跳过！！
 # 当然，except后面也可以处理具体的问题错误，比如ValueError，IOError
-try:
-    with open('sketch.txt') as data:
-
-        for each_line in data:
-            try:
-                (role, line_spoken) = each_line.split(':', 1)
-                print(role, end='')
-                print(' said: ', end='')
-                print(line_spoken, end='')
-            except:
-                pass
-except:
-    print('The data file is missing!')
+# try:
+#     with open('sketch.txt') as data:
+#
+#         for each_line in data:
+#             try:
+#                 (role, line_spoken) = each_line.split(':', 1)
+#                 print(role, end='')
+#                 print(' said: ', end='')
+#                 print(line_spoken, end='')
+#             except:
+#                 pass
+# except:
+#     print('The data file is missing!')
 
 
 
