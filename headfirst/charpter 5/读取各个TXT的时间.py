@@ -30,7 +30,7 @@ clean_julie = [sanitize(each_t) for each_t in julie]
 clean_mikey = [sanitize(each_t) for each_t in mikey]
 clean_sarah = [sanitize(each_t) for each_t in sarah]
 
- '''未使用列表推导方式之前，需要将上面的clean系列的声明为空列表，然后用下列方法写代码'''
+'''未使用列表推导方式之前，需要将上面的clean系列的声明为空列表，然后用下列方法写代码'''
 # for each_time in james:
 #     clean_james.append(sanitize(each_time))
 # for each_time in julie:
